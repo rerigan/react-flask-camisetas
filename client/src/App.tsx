@@ -22,10 +22,11 @@ function App() {
   return (
     <>
       <div>
-        <h1>Camisetas do Tonhão</h1>
+        
         <div id="container-camisetas">
-          <h2>Camiseta: </h2>
-        </div>
+        <h1>Camisetas do Tonhão</h1>
+          <h2>Camisetas disponíveis: </h2>
+        
         <div>
           {data === null ? (
             <p>Loading...</p>
@@ -36,6 +37,7 @@ function App() {
               </p>
             ))
           )}
+          </div>
         </div>
       </div>
     </>
