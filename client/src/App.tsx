@@ -12,7 +12,7 @@ function App() {
   }
   const [data, setData] = useState<DataResponse | null>(null);
   useEffect(() => {
-    fetch("http://localhost:5000/tshirts")
+    fetch("https://react-flask-camisetas.onrender.com/tshirts")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
